@@ -1,0 +1,24 @@
+[
+  {
+    "input": [
+      {
+        "items": [
+          {
+            "id": "a",
+            "title": "A"
+          }
+        ]
+      }
+    ],
+    "expected": [
+      {
+        "id": "a",
+        "title": "A"
+      }
+    ]
+  },
+  {
+    "input": [],
+    "expected": []
+  }
+]

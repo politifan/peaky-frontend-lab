@@ -1,0 +1,27 @@
+[
+  {
+    "input": [
+      {
+        "type": "open",
+        "id": "a"
+      },
+      {
+        "type": "open",
+        "id": "a"
+      }
+    ],
+    "expected": {
+      "stack": [
+        "a"
+      ],
+      "active": "a"
+    }
+  },
+  {
+    "input": [],
+    "expected": {
+      "stack": [],
+      "active": null
+    }
+  }
+]

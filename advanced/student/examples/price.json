@@ -1,0 +1,21 @@
+[
+  {
+    "input": {
+      "lines": [
+        {
+          "unit": 101,
+          "quantity": 3
+        }
+      ],
+      "discount": 0
+    },
+    "expected": 303
+  },
+  {
+    "input": {
+      "lines": [],
+      "discount": 0
+    },
+    "expected": 0
+  }
+]

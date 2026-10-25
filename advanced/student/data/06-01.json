@@ -1,0 +1,73 @@
+{
+  "lesson_key": "06-01",
+  "seed": 710,
+  "practice": "Создайте отдельный репозиторий peaky-dispatch-board. Используйте student/projects/board.json и стенд как основу, но самостоятельно реализуйте UI и серверные таблицы. README.md в своём GitHub допустим; полное руководство и incident отчёт сохраните DOCX. Обязательны пять screenshot: desktop, mobile, keyboard move, conflict, offline replay. Критерии бинарные и проверяются Python либо воспроизводимым ручным сценарием; один внешний вид не завершает проект.",
+  "inputs": {
+    "board": [
+      {
+        "columns": {
+          "todo": [
+            "a",
+            "b"
+          ],
+          "done": [
+            "c"
+          ]
+        },
+        "move": {
+          "id": "a",
+          "to": "todo",
+          "index": 20
+        }
+      },
+      {
+        "columns": {
+          "todo": [
+            "a",
+            "b"
+          ],
+          "done": [
+            "c"
+          ]
+        },
+        "move": {
+          "id": "a",
+          "to": "todo",
+          "index": -1
+        }
+      }
+    ],
+    "wip": [
+      {
+        "columns": {
+          "todo": [
+            "a"
+          ],
+          "doing": [
+            "b"
+          ]
+        },
+        "limits": {},
+        "move": {
+          "id": "a",
+          "to": "missing"
+        }
+      },
+      {
+        "columns": {
+          "todo": [
+            "a"
+          ],
+          "doing": [
+            "b"
+          ]
+        },
+        "limits": {},
+        "move": {
+          "id": "a",
+          "to": "doing"
+        }
+      }
+    ]
+  }
+}

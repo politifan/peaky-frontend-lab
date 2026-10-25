@@ -1,0 +1,61 @@
+{
+  "lesson_key": "06-02",
+  "seed": 710,
+  "practice": "Создайте отдельный peaky-atlas-signals. Реализуйте series/table и графики на React SVG без TypeScript. API FastAPI/SQLAlchemy хранит демонстрационные наблюдения. Screenshot показывают desktop, mobile, сравнение, empty, доступную таблицу. Python проверяет границы, null сортировку, back/reload, CSV и данные после API restart. Красота оценивается по читабельным осям, единицам и согласованным состояниям.",
+  "inputs": {
+    "series": [
+      {
+        "start": 0,
+        "end": 5,
+        "width": 3,
+        "points": [
+          {
+            "time": 0,
+            "value": 1
+          },
+          {
+            "time": 5,
+            "value": -1
+          },
+          {
+            "time": 10,
+            "value": 100
+          }
+        ]
+      },
+      {
+        "start": 0,
+        "end": 5,
+        "width": 3,
+        "points": []
+      }
+    ],
+    "table": [
+      {
+        "rows": [
+          {
+            "id": "b",
+            "value": 2
+          },
+          {
+            "id": "a",
+            "value": 2
+          },
+          {
+            "id": "c",
+            "value": null
+          },
+          {
+            "id": "d",
+            "value": -1
+          }
+        ],
+        "direction": "asc"
+      },
+      {
+        "rows": [],
+        "direction": "asc"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "input": {
+      "dataSafe": true,
+      "generationOk": false,
+      "oneRecord": false,
+      "focusOk": false
+    },
+    "expected": "trace_generation"
+  },
+  {
+    "input": {
+      "dataSafe": false,
+      "generationOk": false,
+      "oneRecord": false,
+      "focusOk": false
+    },
+    "expected": "restore_data"
+  }
+]

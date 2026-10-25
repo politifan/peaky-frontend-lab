@@ -1,0 +1,29 @@
+[
+  {
+    "input": {
+      "now": 100,
+      "ttl": 10,
+      "version": 2,
+      "key": "a",
+      "entries": [
+        {
+          "key": "a",
+          "saved": 91,
+          "version": 2,
+          "value": ""
+        }
+      ]
+    },
+    "expected": ""
+  },
+  {
+    "input": {
+      "now": 100,
+      "ttl": 0,
+      "version": 2,
+      "key": "a",
+      "entries": []
+    },
+    "expected": null
+  }
+]

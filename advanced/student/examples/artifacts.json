@@ -1,0 +1,20 @@
+[
+  {
+    "input": [
+      {
+        "path": "a.js",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    ],
+    "expected": [
+      {
+        "path": "a.js",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    ]
+  },
+  {
+    "input": [],
+    "expected": []
+  }
+]

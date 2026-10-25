@@ -1,0 +1,40 @@
+[
+  {
+    "input": {
+      "base": {
+        "title": "A"
+      },
+      "local": {
+        "title": "A"
+      },
+      "remote": {
+        "title": "B"
+      }
+    },
+    "expected": {
+      "merged": {
+        "title": "B"
+      },
+      "conflicts": []
+    }
+  },
+  {
+    "input": {
+      "base": {
+        "title": "A"
+      },
+      "local": {
+        "title": "A"
+      },
+      "remote": {
+        "title": "A"
+      }
+    },
+    "expected": {
+      "merged": {
+        "title": "A"
+      },
+      "conflicts": []
+    }
+  }
+]

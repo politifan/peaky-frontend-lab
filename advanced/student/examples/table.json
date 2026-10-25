@@ -1,0 +1,38 @@
+[
+  {
+    "input": {
+      "rows": [
+        {
+          "id": "b",
+          "value": 2
+        },
+        {
+          "id": "a",
+          "value": 2
+        },
+        {
+          "id": "c",
+          "value": null
+        },
+        {
+          "id": "d",
+          "value": -1
+        }
+      ],
+      "direction": "asc"
+    },
+    "expected": [
+      "d",
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "input": {
+      "rows": [],
+      "direction": "asc"
+    },
+    "expected": []
+  }
+]

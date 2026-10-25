@@ -1,0 +1,24 @@
+[
+  {
+    "input": {
+      "opener": null,
+      "exists": [
+        "row",
+        "add"
+      ],
+      "fallback": [
+        "gone",
+        "add"
+      ]
+    },
+    "expected": "add"
+  },
+  {
+    "input": {
+      "opener": null,
+      "exists": [],
+      "fallback": []
+    },
+    "expected": null
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "input": {
+      "currentBytes": 0,
+      "previousBytes": 10,
+      "limit": 20,
+      "checks": {
+        "keyboard": true,
+        "xss": true
+      },
+      "required": [
+        "keyboard",
+        "xss"
+      ]
+    },
+    "expected": {
+      "allow": true,
+      "failed": [],
+      "delta": -10
+    }
+  },
+  {
+    "input": {
+      "currentBytes": 0,
+      "previousBytes": 10,
+      "limit": 20,
+      "checks": {},
+      "required": [
+        "keyboard",
+        "xss"
+      ]
+    },
+    "expected": {
+      "allow": false,
+      "failed": [
+        "keyboard",
+        "xss"
+      ],
+      "delta": -10
+    }
+  }
+]

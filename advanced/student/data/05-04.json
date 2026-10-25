@@ -1,0 +1,37 @@
+{
+  "lesson_key": "05-04",
+  "seed": 710,
+  "practice": "Исправьте fault dialog и механизм announcement. Не убирайте вложенное подтверждение из задания. Проверьте две клавиши Escape, Shift+Tab, повтор открытия и сообщение после пустого текста. Python UI test читает activeElement и число открытых окон. В DOCX отчёте отдельно запишите ручное прослушивание live region.",
+  "inputs": {
+    "dialogstack": [
+      [
+        {
+          "type": "open",
+          "id": "a"
+        },
+        {
+          "type": "open",
+          "id": "a"
+        }
+      ],
+      []
+    ],
+    "announcement": [
+      [
+        {
+          "id": "a",
+          "text": " "
+        },
+        {
+          "id": "a",
+          "text": " A "
+        },
+        {
+          "id": "a",
+          "text": "B"
+        }
+      ],
+      []
+    ]
+  }
+}

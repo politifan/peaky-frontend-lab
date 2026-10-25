@@ -1,0 +1,13 @@
+{
+  "projects": [
+    "board",
+    "signals",
+    "slots",
+    "manual"
+  ],
+  "missing": [
+    "restart",
+    "keyboard",
+    "current screenshots"
+  ]
+}

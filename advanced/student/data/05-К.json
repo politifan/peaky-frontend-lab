@@ -1,0 +1,31 @@
+{
+  "lesson_key": "05-К",
+  "seed": 710,
+  "practice": "Решите mixed incident в student/incidents/mixed.json, реализуйте incident_gate/recovery_order. Приложите DOCX отчёт с копией данных, failing и passing наблюдениями и итоговым комбинированным тестом. Не удаляйте ни один критерий для получения recovered.",
+  "inputs": {
+    "incident_gate": [
+      {
+        "dataSafe": true,
+        "generationOk": false,
+        "oneRecord": false,
+        "focusOk": false
+      },
+      {
+        "dataSafe": false,
+        "generationOk": false,
+        "oneRecord": false,
+        "focusOk": false
+      }
+    ],
+    "recovery_order": [
+      {
+        "steps": {
+          "a": []
+        }
+      },
+      {
+        "steps": {}
+      }
+    ]
+  }
+}

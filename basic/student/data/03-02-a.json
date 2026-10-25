@@ -1,0 +1,27 @@
+{
+  "task": "03-02-a",
+  "contract": "Вход {items,min}: items — список объектов {id,price,available}, уникальные строковые id, price целое неотрицательное, available boolean. Верните id доступных товаров с price>=min в исходном порядке. Нулевой price допустим. Реализуйте window.solve в файле index.html. Вход — указанный JSON, результат — JSON совместимое значение. Исходный вход не изменять. До 200 записей; числа конечные в указанных пределах. Функцию вызывают несколько раз без перезагрузки страницы.",
+  "open_examples": [
+    [
+      {
+        "items": [
+          {
+            "id": "a",
+            "price": 0,
+            "available": true
+          },
+          {
+            "id": "b",
+            "price": 5,
+            "available": false
+          }
+        ],
+        "min": 0
+      },
+      [
+        "a"
+      ]
+    ]
+  ],
+  "hidden_tests_included": false
+}

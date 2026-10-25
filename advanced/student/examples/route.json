@@ -1,0 +1,26 @@
+[
+  {
+    "input": {
+      "q": "  дом  ",
+      "page": "",
+      "sort": "bad"
+    },
+    "expected": {
+      "q": "дом",
+      "page": 1,
+      "sort": "new"
+    }
+  },
+  {
+    "input": {
+      "q": "  дом  ",
+      "page": "",
+      "sort": "title"
+    },
+    "expected": {
+      "q": "дом",
+      "page": 1,
+      "sort": "title"
+    }
+  }
+]

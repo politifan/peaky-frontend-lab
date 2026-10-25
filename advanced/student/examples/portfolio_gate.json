@@ -1,0 +1,28 @@
+[
+  {
+    "input": [
+      {
+        "id": "board",
+        "required": [
+          "build"
+        ],
+        "checks": {
+          "build": true
+        }
+      }
+    ],
+    "expected": {
+      "ready": false,
+      "failed": {
+        "board": []
+      }
+    }
+  },
+  {
+    "input": [],
+    "expected": {
+      "ready": false,
+      "failed": {}
+    }
+  }
+]

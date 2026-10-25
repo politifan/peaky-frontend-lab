@@ -1,0 +1,19 @@
+{
+  "server": {
+    "id": "a",
+    "title": "Подтверждено",
+    "version": 8
+  },
+  "draft": {
+    "id": "a",
+    "title": "",
+    "baseVersion": 7
+  },
+  "ids": [
+    "a",
+    "b"
+  ],
+  "deleted": [
+    "b"
+  ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "input": {
+      "server": {
+        "id": "a",
+        "title": "Сервер",
+        "version": 1
+      },
+      "draft": {
+        "id": "a",
+        "title": "",
+        "baseVersion": 1
+      }
+    },
+    "expected": {
+      "title": "",
+      "conflict": false
+    }
+  },
+  {
+    "input": {
+      "server": {
+        "id": "a",
+        "title": "Сервер",
+        "version": 1
+      },
+      "draft": null
+    },
+    "expected": {
+      "title": "Сервер",
+      "conflict": false
+    }
+  }
+]

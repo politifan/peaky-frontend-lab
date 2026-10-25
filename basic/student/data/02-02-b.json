@@ -1,0 +1,6 @@
+{
+  "task": "02-02-b",
+  "contract": "Сохраните четыре article в .gallery. На окне меньше 600px нужна одна колонка, от 600px — две, от 1000px — четыре. Gap 16px. Карточки равной ширины, длинный текст не расширяет страницу. Реализуйте CSS Grid и viewport meta.",
+  "open_examples": [],
+  "hidden_tests_included": false
+}

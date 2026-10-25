@@ -1,0 +1,6 @@
+{
+  "task": "01-02-b",
+  "contract": "В form разместите label for=email с текстом Почта и input id=email name=email type=email required. Добавьте button type=submit с текстом Записаться. Поле должно отклонять пустую строку и broken, принимать a@example.test. Placeholder не заменяет label.",
+  "open_examples": [],
+  "hidden_tests_included": false
+}

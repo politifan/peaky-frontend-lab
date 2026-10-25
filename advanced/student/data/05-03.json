@@ -1,0 +1,49 @@
+{
+  "lesson_key": "05-03",
+  "seed": 710,
+  "practice": "Исправьте fault cache. Реализуйте offline/invalidate, подключите версию и теги к UI. Сохраните несовместимый snapshot в incident отчёт и докажите сохранение черновика после обновления списка. Python test создаёт уникальное title, читает список до/после и повторяет reload. Не заменяйте ответ константным готовым списком.",
+  "inputs": {
+    "offline": [
+      {
+        "version": 2,
+        "targetVersion": 2,
+        "records": []
+      },
+      {
+        "version": 1,
+        "targetVersion": 2,
+        "records": []
+      }
+    ],
+    "invalidate": [
+      {
+        "cache": [
+          {
+            "key": "list",
+            "tags": [
+              "ticket",
+              "ticket"
+            ]
+          },
+          {
+            "key": "detail",
+            "tags": [
+              "ticket:1"
+            ]
+          },
+          {
+            "key": "user",
+            "tags": []
+          }
+        ],
+        "changed": [
+          "ticket"
+        ]
+      },
+      {
+        "cache": [],
+        "changed": []
+      }
+    ]
+  }
+}

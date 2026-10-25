@@ -1,0 +1,6 @@
+{
+  "task": "03-03-b",
+  "contract": "В исходной странице input id=task, button id=add, ul id=tasks. Добавьте задачу по клику: trim, пустую игнорировать, точный повтор существующего текста игнорировать. После успешного добавления очистить input. Каждый текст выводить через textContent в li, не через innerHTML. Хранение между reload здесь не требуется.",
+  "open_examples": [],
+  "hidden_tests_included": false
+}

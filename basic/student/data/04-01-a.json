@@ -1,0 +1,6 @@
+{
+  "task": "04-01-a",
+  "contract": "Создайте form id=profile с label и input id=name, button submit и p id=message role=status. Submit не перезагружает страницу. После trim длина имени 2..30: вывод Сохранено: и пробел и имя. Вне границ — Имя должно содержать от 2 до 30 символов. При ошибке input aria-invalid=true, при успехе false. Проверка отправляет через Enter.",
+  "open_examples": [],
+  "hidden_tests_included": false
+}

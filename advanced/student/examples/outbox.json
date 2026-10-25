@@ -1,0 +1,27 @@
+[
+  {
+    "input": {
+      "saved": [],
+      "events": [
+        {
+          "type": "enqueue",
+          "key": "a",
+          "payload": "B"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "key": "a",
+        "payload": "B"
+      }
+    ]
+  },
+  {
+    "input": {
+      "saved": [],
+      "events": []
+    },
+    "expected": []
+  }
+]

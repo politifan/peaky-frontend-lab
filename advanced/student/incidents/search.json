@@ -1,0 +1,25 @@
+{
+  "starts": [
+    {
+      "query": "a",
+      "generation": 1
+    },
+    {
+      "query": "ab",
+      "generation": 2
+    },
+    {
+      "query": "a",
+      "generation": 3
+    }
+  ],
+  "completion": [
+    3,
+    1,
+    2
+  ],
+  "delays_ms": {
+    "a": 350,
+    "ab": 20
+  }
+}

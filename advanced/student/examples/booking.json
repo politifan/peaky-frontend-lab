@@ -1,0 +1,27 @@
+[
+  {
+    "input": {
+      "slots": [
+        {
+          "start": 10,
+          "end": 20
+        }
+      ],
+      "candidate": {
+        "start": 15,
+        "end": 16
+      }
+    },
+    "expected": false
+  },
+  {
+    "input": {
+      "slots": [],
+      "candidate": {
+        "start": 0,
+        "end": 10
+      }
+    },
+    "expected": true
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "task": "03-02-b",
+  "contract": "Создайте button id=minus, output id=count, button id=plus. Начальное значение 0. Нажатие plus увеличивает число на 1 до 5, minus уменьшает до 0. На границах соответствующая кнопка disabled. Повторные нажатия не пересекают границы. Состояние выводится числом, не строкой сценария.",
+  "open_examples": [],
+  "hidden_tests_included": false
+}

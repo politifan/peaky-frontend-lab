@@ -1,0 +1,22 @@
+[
+  {
+    "input": [
+      {
+        "type": "start",
+        "query": "a",
+        "generation": 1
+      }
+    ],
+    "expected": {
+      "query": "a",
+      "items": []
+    }
+  },
+  {
+    "input": [],
+    "expected": {
+      "query": "",
+      "items": []
+    }
+  }
+]

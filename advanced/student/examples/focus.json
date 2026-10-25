@@ -1,0 +1,20 @@
+[
+  {
+    "input": {
+      "enabled": [
+        "ok"
+      ],
+      "current": null,
+      "key": "Tab"
+    },
+    "expected": "ok"
+  },
+  {
+    "input": {
+      "enabled": [],
+      "current": null,
+      "key": "Tab"
+    },
+    "expected": null
+  }
+]

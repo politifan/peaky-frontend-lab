@@ -1,0 +1,27 @@
+[
+  {
+    "input": {
+      "cart": {},
+      "events": [
+        {
+          "id": "a",
+          "delta": 2
+        },
+        {
+          "id": "a",
+          "delta": -1
+        }
+      ]
+    },
+    "expected": {
+      "a": 1
+    }
+  },
+  {
+    "input": {
+      "cart": {},
+      "events": []
+    },
+    "expected": {}
+  }
+]

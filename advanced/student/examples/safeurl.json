@@ -1,0 +1,16 @@
+[
+  {
+    "input": [
+      "https://docs.example.org/a",
+      "javascript:alert(1)"
+    ],
+    "expected": [
+      true,
+      false
+    ]
+  },
+  {
+    "input": [],
+    "expected": []
+  }
+]

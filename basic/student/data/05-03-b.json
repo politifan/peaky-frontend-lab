@@ -1,0 +1,25 @@
+{
+  "task": "05-03-b",
+  "contract": "Вход {latest,events}, latest — id последнего запроса, events — полученные события {id,ok,items}. События с другими id игнорировать. Если события latest нет: {state:\"loading\",items:[]}. Последнее событие latest: ok=false -> error с []; ok=true -> ready с items, включая []. Не путать ready с наличием элементов. Реализуйте window.solve в файле index.html. Вход — указанный JSON, результат — JSON совместимое значение. Исходный вход не изменять. До 200 записей; числа конечные в указанных пределах. Функцию вызывают несколько раз без перезагрузки страницы.",
+  "open_examples": [
+    [
+      {
+        "latest": 2,
+        "events": [
+          {
+            "id": 1,
+            "ok": true,
+            "items": [
+              "a"
+            ]
+          }
+        ]
+      },
+      {
+        "state": "loading",
+        "items": []
+      }
+    ]
+  ],
+  "hidden_tests_included": false
+}

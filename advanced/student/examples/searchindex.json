@@ -1,0 +1,34 @@
+[
+  {
+    "input": {
+      "docs": [
+        {
+          "id": "a",
+          "title": "React State",
+          "tags": [
+            "ui"
+          ]
+        },
+        {
+          "id": "b",
+          "title": "API Guide",
+          "tags": [
+            "react"
+          ]
+        }
+      ],
+      "query": ""
+    },
+    "expected": [
+      "a",
+      "b"
+    ]
+  },
+  {
+    "input": {
+      "docs": [],
+      "query": ""
+    },
+    "expected": []
+  }
+]

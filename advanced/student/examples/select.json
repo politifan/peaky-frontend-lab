@@ -1,0 +1,21 @@
+[
+  {
+    "input": {
+      "items": [
+        {
+          "id": "a",
+          "title": ""
+        }
+      ],
+      "selectedId": "a"
+    },
+    "expected": ""
+  },
+  {
+    "input": {
+      "items": [],
+      "selectedId": null
+    },
+    "expected": null
+  }
+]

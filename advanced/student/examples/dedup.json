@@ -1,0 +1,17 @@
+[
+  {
+    "input": [
+      {
+        "key": "a",
+        "payload": "A"
+      }
+    ],
+    "expected": [
+      "created"
+    ]
+  },
+  {
+    "input": [],
+    "expected": []
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "repo": "peaky-field-manual",
+  "hours": [
+    25,
+    40
+  ],
+  "data": "30 original docs,5 categories",
+  "required": [
+    "build",
+    "and_search",
+    "safe_text",
+    "bookmarks",
+    "progress_undo",
+    "url_back_reload",
+    "offline_read",
+    "version_preserves_progress",
+    "mobile",
+    "five_screenshots"
+  ],
+  "screens": [
+    "home",
+    "document",
+    "mobile",
+    "offline",
+    "updated_version"
+  ]
+}

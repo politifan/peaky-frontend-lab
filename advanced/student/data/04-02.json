@@ -1,0 +1,26 @@
+{
+  "lesson_key": "04-02",
+  "seed": 710,
+  "practice": "В стенде добавьте недоверенный title и внешние ссылки. Сделайте text вывод и точную политику URL. Соберите телеметрию только allowlist полей; проверьте отсутствие query/hash и произвольного privateMessage. Добавьте CSP для production статики и проверьте, что разрешённый JS продолжает работать. Python UI test проверяет побочный флаг XSS и данные журнала.",
+  "inputs": {
+    "safeurl": [
+      [
+        "https://docs.example.org/a",
+        "javascript:alert(1)"
+      ],
+      []
+    ],
+    "redact": [
+      [
+        {
+          "type": "open",
+          "path": "/a?email=x#hash",
+          "duration": 0,
+          "email": "x",
+          "token": "secret"
+        }
+      ],
+      []
+    ]
+  }
+}

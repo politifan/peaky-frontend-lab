@@ -1,0 +1,34 @@
+{
+  "lesson_key": "03-К",
+  "seed": 710,
+  "practice": "По student/incidents/archive.json создайте каталог, удаление и крошки. Реализуйте returnfocus/breadcrumbs. Воспроизведите неуспешное удаление отдельно от успешного. Запишите keyboard сценарий в DOCX с ожидаемыми точками фокуса. Отчёт не должен называть DOM проверки полноценным аудитом WCAG.",
+  "inputs": {
+    "returnfocus": [
+      {
+        "opener": null,
+        "exists": [
+          "row",
+          "add"
+        ],
+        "fallback": [
+          "gone",
+          "add"
+        ]
+      },
+      {
+        "opener": null,
+        "exists": [],
+        "fallback": []
+      }
+    ],
+    "breadcrumbs": [
+      [
+        {
+          "label": "Главная",
+          "href": "/"
+        }
+      ],
+      []
+    ]
+  }
+}

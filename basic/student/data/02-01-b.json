@@ -1,0 +1,6 @@
+{
+  "task": "02-01-b",
+  "contract": "Разметка содержит p.notice и p.notice.urgent. Обычное сообщение синее rgb(0,0,255), срочное красное rgb(255,0,0). Размер обоих 18px. Нельзя использовать inline style или !important. Измените CSS, не порядок абзацев.",
+  "open_examples": [],
+  "hidden_tests_included": false
+}

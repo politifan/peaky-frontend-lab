@@ -1,0 +1,55 @@
+[
+  {
+    "input": {
+      "start": 0,
+      "end": 5,
+      "width": 3,
+      "points": [
+        {
+          "time": 0,
+          "value": 1
+        },
+        {
+          "time": 5,
+          "value": -1
+        },
+        {
+          "time": 10,
+          "value": 100
+        }
+      ]
+    },
+    "expected": [
+      {
+        "start": 0,
+        "count": 1,
+        "sum": 1
+      },
+      {
+        "start": 3,
+        "count": 0,
+        "sum": 0
+      }
+    ]
+  },
+  {
+    "input": {
+      "start": 0,
+      "end": 5,
+      "width": 3,
+      "points": []
+    },
+    "expected": [
+      {
+        "start": 0,
+        "count": 0,
+        "sum": 0
+      },
+      {
+        "start": 3,
+        "count": 0,
+        "sum": 0
+      }
+    ]
+  }
+]

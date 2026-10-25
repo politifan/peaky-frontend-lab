@@ -1,0 +1,6 @@
+{
+  "task": "04-02-a",
+  "contract": "Кнопка id=load загружает GET /api/items через fetch. Пока ответ ожидается: button.disabled=true, p id=state role=status текст Загрузка. Для 2xx и массива: пустой массив — Нет данных, иначе Готово и li в ul id=items для каждого name через textContent. Ошибка сети, не 2xx или JSON не массив — Ошибка; очистить старый список. После любого исхода разблокировать кнопку. Повторный запуск допустим.",
+  "open_examples": [],
+  "hidden_tests_included": false
+}

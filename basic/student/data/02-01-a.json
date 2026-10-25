@@ -1,0 +1,6 @@
+{
+  "task": "02-01-a",
+  "contract": "Не меняйте разметку section.card с текстом Карточка. CSS должен давать внешнюю ширину 240px, padding 20px, border 2px solid; используйте border-box. При ширине окна 320 и 800 размеры те же, горизонтального переполнения нет.",
+  "open_examples": [],
+  "hidden_tests_included": false
+}

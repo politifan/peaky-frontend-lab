@@ -1,0 +1,20 @@
+[
+  {
+    "input": [
+      "mount"
+    ],
+    "expected": {
+      "created": 1,
+      "removed": 0,
+      "active": 1
+    }
+  },
+  {
+    "input": [],
+    "expected": {
+      "created": 0,
+      "removed": 0,
+      "active": 0
+    }
+  }
+]

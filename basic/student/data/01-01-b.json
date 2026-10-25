@@ -1,0 +1,6 @@
+{
+  "task": "01-01-b",
+  "contract": "Создайте nav с ссылками Описание href=#about и Контакты href=#contacts. После nav разместите main с section id=about и h2 Описание, section id=contacts и h2 Контакты. ID уникальны. Это переходы, не кнопки. Проверка нажимает ссылки и сверяет hash.",
+  "open_examples": [],
+  "hidden_tests_included": false
+}

@@ -1,0 +1,33 @@
+{
+  "lesson_key": "05-01",
+  "seed": 710,
+  "practice": "Воспроизведите fault=search, исправьте src/faults.js и hook поиска. Не меняйте dataset и задержки. Сохраните DOCX incident отчёт: два симптома, различающие сигналы, причины, patch, повтор. Выполните battle_race/loading и Python UI verifier. Приёмка: последние generation и query определяют результат; старый finally ничего не меняет; пустые и повторные ответы корректны.",
+  "inputs": {
+    "battle_race": [
+      [
+        {
+          "type": "start",
+          "query": "a",
+          "generation": 1
+        }
+      ],
+      []
+    ],
+    "loading": [
+      {
+        "active": "b",
+        "events": [
+          {
+            "id": "b",
+            "status": "abort",
+            "items": []
+          }
+        ]
+      },
+      {
+        "active": "b",
+        "events": []
+      }
+    ]
+  }
+}

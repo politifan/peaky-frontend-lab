@@ -1,0 +1,27 @@
+{
+  "repo": "peaky-atlas-signals",
+  "hours": [
+    25,
+    40
+  ],
+  "data": "10000 points,3 sensors",
+  "required": [
+    "build",
+    "two_charts",
+    "accessible_table",
+    "range_boundaries",
+    "null_sort",
+    "url_back_reload",
+    "csv_export",
+    "performance_measurement",
+    "mobile",
+    "five_screenshots"
+  ],
+  "screens": [
+    "desktop",
+    "mobile",
+    "comparison",
+    "empty",
+    "table"
+  ]
+}

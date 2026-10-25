@@ -1,0 +1,28 @@
+[
+  {
+    "input": {
+      "required": [
+        "a",
+        "b",
+        "c"
+      ],
+      "events": []
+    },
+    "expected": {
+      "done": 0,
+      "total": 3,
+      "percent": 0
+    }
+  },
+  {
+    "input": {
+      "required": [],
+      "events": []
+    },
+    "expected": {
+      "done": 0,
+      "total": 0,
+      "percent": 0
+    }
+  }
+]

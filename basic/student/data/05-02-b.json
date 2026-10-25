@@ -1,0 +1,17 @@
+{
+  "task": "05-02-b",
+  "contract": "Вход {width,padding,gap,minCard,maxColumns}, неотрицательные целые, minCard>=1, maxColumns>=1; width>=2*padding. Верните число колонок: минимум 1, максимум maxColumns, по формуле floor((width-2*padding+gap)/(minCard+gap)). Это модель принятия решения; CSS первой задачи проверяется отдельно. Реализуйте window.solve в файле index.html. Вход — указанный JSON, результат — JSON совместимое значение. Исходный вход не изменять. До 200 записей; числа конечные в указанных пределах. Функцию вызывают несколько раз без перезагрузки страницы.",
+  "open_examples": [
+    [
+      {
+        "width": 320,
+        "padding": 16,
+        "gap": 12,
+        "minCard": 140,
+        "maxColumns": 4
+      },
+      1
+    ]
+  ],
+  "hidden_tests_included": false
+}

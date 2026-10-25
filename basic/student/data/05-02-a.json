@@ -1,0 +1,6 @@
+{
+  "task": "05-02-a",
+  "contract": "Инцидент музея: карточка раздвигает страницу на узком экране. Сохранить article#card с h1 Экспонат, p#description. CSS: width=100%, max-width=720px, border-box, padding 16px, border 1px. Вся длинная подпись видна, не clipped, при ширинах 280..1280px. Скрывать overflow на body запрещено. Проверка подставляет разные длинные строки и перезагружает страницу.",
+  "open_examples": [],
+  "hidden_tests_included": false
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "input": [
+      {
+        "id": "a",
+        "text": " "
+      },
+      {
+        "id": "a",
+        "text": " A "
+      },
+      {
+        "id": "a",
+        "text": "B"
+      }
+    ],
+    "expected": [
+      "A"
+    ]
+  },
+  {
+    "input": [],
+    "expected": []
+  }
+]

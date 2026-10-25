@@ -1,0 +1,38 @@
+{
+  "lesson_key": "04-К",
+  "seed": 710,
+  "practice": "Исправьте dist, keyboard и redaction на учебном стенде. Реализуйте release/p95. Приложите DOCX release отчёт с commit, исходными и повторными измерениями, файлом JSON проверки и скриншотами. Приёмка не допускает пропущенную обязательную проверку и не принимает константу allow=true.",
+  "inputs": {
+    "release": [
+      {
+        "currentBytes": 0,
+        "previousBytes": 10,
+        "limit": 20,
+        "checks": {
+          "keyboard": true,
+          "xss": true
+        },
+        "required": [
+          "keyboard",
+          "xss"
+        ]
+      },
+      {
+        "currentBytes": 0,
+        "previousBytes": 10,
+        "limit": 20,
+        "checks": {},
+        "required": [
+          "keyboard",
+          "xss"
+        ]
+      }
+    ],
+    "p95": [
+      [
+        0
+      ],
+      []
+    ]
+  }
+}

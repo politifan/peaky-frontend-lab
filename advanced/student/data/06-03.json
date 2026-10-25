@@ -1,0 +1,43 @@
+{
+  "lesson_key": "06-03",
+  "seed": 710,
+  "practice": "Создайте отдельный peaky-studio-slots. Реализуйте booking/price, мастер и два представления расписания. API FastAPI/SQLAlchemy расширьте таблицами room/booking/tariff. Screenshot: неделя, мобильный список, ошибки, конфликт, подтверждённая бронь. README даёт воспроизводимый конфликт двух вкладок, точную модель денег и DOCX руководство. Реальные банковские операции не добавлять.",
+  "inputs": {
+    "booking": [
+      {
+        "slots": [
+          {
+            "start": 10,
+            "end": 20
+          }
+        ],
+        "candidate": {
+          "start": 15,
+          "end": 16
+        }
+      },
+      {
+        "slots": [],
+        "candidate": {
+          "start": 0,
+          "end": 10
+        }
+      }
+    ],
+    "price": [
+      {
+        "lines": [
+          {
+            "unit": 101,
+            "quantity": 3
+          }
+        ],
+        "discount": 0
+      },
+      {
+        "lines": [],
+        "discount": 0
+      }
+    ]
+  }
+}

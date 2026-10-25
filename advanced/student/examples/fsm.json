@@ -1,0 +1,12 @@
+[
+  {
+    "input": [
+      "start"
+    ],
+    "expected": "sending"
+  },
+  {
+    "input": [],
+    "expected": "editing"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "task": "02-03-b",
+  "contract": "Сохраните два a внутри nav, затем input id=query и button id=search. Все доступны Tab в таком DOM порядке. Добавьте видимый outline при :focus-visible не меньше 2px и область кнопки не меньше 44 на 44px. Нельзя добавлять положительный tabindex. Цвет outline не transparent.",
+  "open_examples": [],
+  "hidden_tests_included": false
+}

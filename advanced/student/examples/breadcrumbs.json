@@ -1,0 +1,21 @@
+[
+  {
+    "input": [
+      {
+        "label": "Главная",
+        "href": "/"
+      }
+    ],
+    "expected": [
+      {
+        "label": "Главная",
+        "href": null,
+        "current": true
+      }
+    ]
+  },
+  {
+    "input": [],
+    "expected": []
+  }
+]

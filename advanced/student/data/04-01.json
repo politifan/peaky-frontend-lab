@@ -1,0 +1,44 @@
+{
+  "lesson_key": "04-01",
+  "seed": 710,
+  "practice": "Добавьте 10000 воспроизводимых строк из student/data/metrics.json. Сначала сохраните измерение без виртуализации, потом реализуйте окно и постраничный доступный режим. Выделите редкий раздел в lazy chunk, обработайте отказ загрузки. Build должен пройти npm run build; бюджет измеряйте скриптом Python. Автоматические window/budget проверяют границы и точный initial состав.",
+  "inputs": {
+    "window": [
+      {
+        "count": 10,
+        "height": 20,
+        "scroll": 0,
+        "viewport": 0,
+        "overscan": 2
+      },
+      {
+        "count": 0,
+        "height": 20,
+        "scroll": 0,
+        "viewport": 0,
+        "overscan": 0
+      }
+    ],
+    "budget": [
+      {
+        "chunks": [
+          {
+            "name": "a",
+            "bytes": 10,
+            "initial": true
+          },
+          {
+            "name": "b",
+            "bytes": 100,
+            "initial": false
+          }
+        ],
+        "limit": 0
+      },
+      {
+        "chunks": [],
+        "limit": 0
+      }
+    ]
+  }
+}

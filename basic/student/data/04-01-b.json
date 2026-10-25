@@ -1,0 +1,21 @@
+{
+  "task": "04-01-b",
+  "contract": "Вход {network,status,items}, network boolean (true — ответ получен), status целое 100..599, items список. Верните {state,count}: без сети state=network-error; не 2xx state=http-error; 2xx с [] state=empty; иначе ready. Count равен длине items только для ready, иначе 0. Проверяется состояние, а не надпись об успехе. Реализуйте window.solve в файле index.html. Вход — указанный JSON, результат — JSON совместимое значение. Исходный вход не изменять. До 200 записей; числа конечные в указанных пределах. Функцию вызывают несколько раз без перезагрузки страницы.",
+  "open_examples": [
+    [
+      {
+        "network": true,
+        "status": 200,
+        "items": [
+          1,
+          2
+        ]
+      },
+      {
+        "state": "ready",
+        "count": 2
+      }
+    ]
+  ],
+  "hidden_tests_included": false
+}

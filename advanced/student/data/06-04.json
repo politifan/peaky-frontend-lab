@@ -1,0 +1,46 @@
+{
+  "lesson_key": "06-04",
+  "seed": 710,
+  "practice": "Создайте отдельный peaky-field-manual. Реализуйте searchindex/progress, собственные тексты и offline состояние. API FastAPI/SQLAlchemy хранит публичный каталог; закладки сохраняются отдельно. README содержит 5 screenshot, маршруты, известные ограничения и Python тесты. Дайте демонстрацию обновления version с сохранением прогресса; локальные ключи и авторские ответы курса в репозиторий не копировать.",
+  "inputs": {
+    "searchindex": [
+      {
+        "docs": [
+          {
+            "id": "a",
+            "title": "React State",
+            "tags": [
+              "ui"
+            ]
+          },
+          {
+            "id": "b",
+            "title": "API Guide",
+            "tags": [
+              "react"
+            ]
+          }
+        ],
+        "query": ""
+      },
+      {
+        "docs": [],
+        "query": ""
+      }
+    ],
+    "progress": [
+      {
+        "required": [
+          "a",
+          "b",
+          "c"
+        ],
+        "events": []
+      },
+      {
+        "required": [],
+        "events": []
+      }
+    ]
+  }
+}

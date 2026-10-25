@@ -1,0 +1,30 @@
+{
+  "lesson_key": "06-К",
+  "seed": 710,
+  "practice": "В student/incidents/handoff.json исправьте карту передачи. Реализуйте portfolio_gate/artifacts, пересоберите свои четыре проекта и заполните DOCX приёмку. Не добавляйте пятый проект. Контрольная открывается после 100% секции четырёх проектов; Stepik баллы кодовых функций не заменяют ручной просмотр портфолио.",
+  "inputs": {
+    "portfolio_gate": [
+      [
+        {
+          "id": "board",
+          "required": [
+            "build"
+          ],
+          "checks": {
+            "build": true
+          }
+        }
+      ],
+      []
+    ],
+    "artifacts": [
+      [
+        {
+          "path": "a.js",
+          "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        }
+      ],
+      []
+    ]
+  }
+}

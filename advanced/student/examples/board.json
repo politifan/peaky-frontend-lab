@@ -1,0 +1,56 @@
+[
+  {
+    "input": {
+      "columns": {
+        "todo": [
+          "a",
+          "b"
+        ],
+        "done": [
+          "c"
+        ]
+      },
+      "move": {
+        "id": "a",
+        "to": "todo",
+        "index": 20
+      }
+    },
+    "expected": {
+      "todo": [
+        "b",
+        "a"
+      ],
+      "done": [
+        "c"
+      ]
+    }
+  },
+  {
+    "input": {
+      "columns": {
+        "todo": [
+          "a",
+          "b"
+        ],
+        "done": [
+          "c"
+        ]
+      },
+      "move": {
+        "id": "a",
+        "to": "todo",
+        "index": -1
+      }
+    },
+    "expected": {
+      "todo": [
+        "a",
+        "b"
+      ],
+      "done": [
+        "c"
+      ]
+    }
+  }
+]

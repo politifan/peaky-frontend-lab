@@ -1,0 +1,17 @@
+Peaky Minds Frontend basic. Дополнение 26.10.2026
+
+Распакуйте целиком. Первые HTML/CSS шаги basic выполняются в student/tasks/КЛЮЧ/index.html без установки сервера. Каждый контракт также опубликован в соответствующем шаге Stepik. Там нет поля отправки HTML и подключённого External Grader; локальная практика и вопросы Stepik оценивают разные результаты.
+
+Для basic HTTP из student:
+py -3.12 -m venv .venv
+.venv/Scripts/python.exe -m pip install -r requirements.txt
+.venv/Scripts/python.exe run_lab.py --mode ready --port 8000
+URL: http://127.0.0.1:8000/tasks/КЛЮЧ/index.html. Режим меняют только после Ctrl+C и нового запуска: slow/empty/error/invalid. submissions.sqlite3 и localStorage сохраняют учебные данные. Не удаляйте их для скрытия ошибки.
+
+Advanced: рабочая папка student/lab. Нужен Node >=22.12 и Python 3.12. npm ci → npm run build, затем venv и pip install -r requirements.txt. API: .venv/Scripts/python.exe -m uvicorn server:app --host 127.0.0.1 --port 8000. Основной адрес после сборки http://127.0.0.1:8000. Для dev во втором терминале npm run dev; proxy /api идёт на 8000. Origin на 5173 отличается от 8000.
+
+В Linux/macOS создайте python3.12 -m venv .venv и используйте .venv/bin/python. Активация необязательна. Для check_examples.py перейдите в student и вызовите lab/.venv/Scripts/python.exe (Linux: lab/.venv/bin/python), сначала -m playwright install chromium, затем check_examples.py TASK_KEY. KEY берут из одинаковых имён tasks/KEY.js и examples/KEY.json. Проверяется JavaScript solve, Python только управляет браузером.
+
+Advanced профили /?fault=search, outbox, cache, dialog намеренно неисправны. Сохраняйте исходные значения и показывайте различающий опыт. Успех JSON-функции не доказывает работу focus, экрана, сети или сохранности после рестарта. Портфельные продукты создаются по своим рубрикам; исходные варианты и файлы сохранены.
+
+Короткие заметки могут быть TXT/Markdown/DOCX; финальная передача требует связной инструкции. Исторические DOCX редакции 2 остаются справочным чтением, актуальные уточнения — Stepik и этот файл. Нет обещанной постоянной преподавательской проверки или независимого серверного экзамена локального проекта.

@@ -1,0 +1,35 @@
+[
+  {
+    "input": [
+      {
+        "type": "start",
+        "id": "a"
+      },
+      {
+        "type": "start",
+        "id": "b"
+      },
+      {
+        "type": "response",
+        "id": "a",
+        "items": [
+          "a"
+        ]
+      },
+      {
+        "type": "response",
+        "id": "b",
+        "items": [
+          "b"
+        ]
+      }
+    ],
+    "expected": [
+      "b"
+    ]
+  },
+  {
+    "input": [],
+    "expected": []
+  }
+]

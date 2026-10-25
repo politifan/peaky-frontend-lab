@@ -1,0 +1,6 @@
+{
+  "task": "04-03-b",
+  "contract": "После выпуска submit удаляет текст заявки. Сохраните form id=request, textarea id=text и button submit, p id=state role=status. На загрузке восстановить localStorage pm-request. Любой input сохраняет актуальную строку. Submit: trim; пустая — Введите заявку, непустая — Черновик готов. Не удалять текст/ключ, не перезагружать страницу. Новая вкладка должна восстановить данные.",
+  "open_examples": [],
+  "hidden_tests_included": false
+}

@@ -1,0 +1,27 @@
+{
+  "repo": "peaky-studio-slots",
+  "hours": [
+    30,
+    45
+  ],
+  "data": "5 rooms,7 days,3 tariffs",
+  "required": [
+    "build",
+    "weekly_and_list_views",
+    "keyboard_wizard",
+    "integer_price",
+    "adjacent_slots",
+    "concurrent_conflict",
+    "replay",
+    "restart_persistence",
+    "mobile",
+    "five_screenshots"
+  ],
+  "screens": [
+    "week",
+    "mobile",
+    "errors",
+    "conflict",
+    "confirmed"
+  ]
+}

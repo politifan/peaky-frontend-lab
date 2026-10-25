@@ -1,0 +1,28 @@
+[
+  {
+    "input": {
+      "initial": "A",
+      "events": [
+        {
+          "type": "edit",
+          "op": "a",
+          "value": "B"
+        }
+      ]
+    },
+    "expected": {
+      "value": "B",
+      "pending": "a"
+    }
+  },
+  {
+    "input": {
+      "initial": "A",
+      "events": []
+    },
+    "expected": {
+      "value": "A",
+      "pending": null
+    }
+  }
+]

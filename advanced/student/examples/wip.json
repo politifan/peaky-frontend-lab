@@ -1,0 +1,38 @@
+[
+  {
+    "input": {
+      "columns": {
+        "todo": [
+          "a"
+        ],
+        "doing": [
+          "b"
+        ]
+      },
+      "limits": {},
+      "move": {
+        "id": "a",
+        "to": "missing"
+      }
+    },
+    "expected": false
+  },
+  {
+    "input": {
+      "columns": {
+        "todo": [
+          "a"
+        ],
+        "doing": [
+          "b"
+        ]
+      },
+      "limits": {},
+      "move": {
+        "id": "a",
+        "to": "doing"
+      }
+    },
+    "expected": true
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "input": {
+      "cache": [
+        {
+          "key": "list",
+          "tags": [
+            "ticket",
+            "ticket"
+          ]
+        },
+        {
+          "key": "detail",
+          "tags": [
+            "ticket:1"
+          ]
+        },
+        {
+          "key": "user",
+          "tags": []
+        }
+      ],
+      "changed": [
+        "ticket"
+      ]
+    },
+    "expected": [
+      "list"
+    ]
+  },
+  {
+    "input": {
+      "cache": [],
+      "changed": []
+    },
+    "expected": []
+  }
+]

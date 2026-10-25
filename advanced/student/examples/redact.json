@@ -1,0 +1,24 @@
+[
+  {
+    "input": [
+      {
+        "type": "open",
+        "path": "/a?email=x#hash",
+        "duration": 0,
+        "email": "x",
+        "token": "secret"
+      }
+    ],
+    "expected": [
+      {
+        "type": "open",
+        "path": "/a",
+        "duration": 0
+      }
+    ]
+  },
+  {
+    "input": [],
+    "expected": []
+  }
+]

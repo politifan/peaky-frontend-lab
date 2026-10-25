@@ -1,0 +1,32 @@
+{
+  "lesson_key": "05-02",
+  "seed": 710,
+  "practice": "Восстановите outbox и серверный idempotency контракт. Запустите Python API test с повтором, конфликтом и restart собственного сервиса. UI test выполнит reload страницы между отправкой и ack. Сохраните DOCX отчёт с id одной записи и чтением после restart. Не добавляйте настоящий платёж или личные данные. Функции outbox/dedup должны отклонять дубли по контракту.",
+  "inputs": {
+    "outbox": [
+      {
+        "saved": [],
+        "events": [
+          {
+            "type": "enqueue",
+            "key": "a",
+            "payload": "B"
+          }
+        ]
+      },
+      {
+        "saved": [],
+        "events": []
+      }
+    ],
+    "dedup": [
+      [
+        {
+          "key": "a",
+          "payload": "A"
+        }
+      ],
+      []
+    ]
+  }
+}

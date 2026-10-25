@@ -1,0 +1,15 @@
+{
+  "previousBytes": 180000,
+  "currentBytes": 290000,
+  "limit": 250000,
+  "required": [
+    "keyboard",
+    "redaction",
+    "build"
+  ],
+  "checks": {
+    "build": true,
+    "keyboard": false,
+    "redaction": false
+  }
+}

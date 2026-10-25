@@ -1,0 +1,16 @@
+{
+  "task": "05-01-b",
+  "contract": "Вход список строк URL. Разрешены только абсолютные адреса https://docs.example.test/... с hostname ровно docs.example.test, без username/password. Верните разрешённые строки в исходном порядке, остальные исключить. Используйте new URL и catch; https://docs.example.test.evil.test запрещён. Дубли сохранять. Реализуйте window.solve в файле index.html. Вход — указанный JSON, результат — JSON совместимое значение. Исходный вход не изменять. До 200 записей; числа конечные в указанных пределах. Функцию вызывают несколько раз без перезагрузки страницы.",
+  "open_examples": [
+    [
+      [
+        "https://docs.example.test/a",
+        "javascript:alert(1)"
+      ],
+      [
+        "https://docs.example.test/a"
+      ]
+    ]
+  ],
+  "hidden_tests_included": false
+}

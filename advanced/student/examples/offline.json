@@ -1,0 +1,24 @@
+[
+  {
+    "input": {
+      "version": 2,
+      "targetVersion": 2,
+      "records": []
+    },
+    "expected": {
+      "accepted": true,
+      "records": []
+    }
+  },
+  {
+    "input": {
+      "version": 1,
+      "targetVersion": 2,
+      "records": []
+    },
+    "expected": {
+      "accepted": false,
+      "records": []
+    }
+  }
+]

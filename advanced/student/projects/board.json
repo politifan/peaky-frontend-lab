@@ -1,0 +1,26 @@
+{
+  "repo": "peaky-dispatch-board",
+  "hours": [
+    30,
+    45
+  ],
+  "data": "200 cards,3 columns",
+  "required": [
+    "build",
+    "keyboard_move",
+    "drag_move",
+    "wip_limit",
+    "version_conflict",
+    "offline_replay",
+    "restart_persistence",
+    "mobile",
+    "five_screenshots"
+  ],
+  "screens": [
+    "desktop",
+    "mobile",
+    "keyboard",
+    "conflict",
+    "offline"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "task": "04-02-b",
+  "contract": "textarea id=draft и button id=save. Save сохраняет строку в localStorage ключ pm-draft; при загрузке восстанавливает значение, отсутствие ключа означает пустую строку. p id=state role=status сообщает Сохранено. Не храните пароли. Пустая строка — допустимый черновик. Значение сохраняется после reload и закрытия вкладки в том же browser context.",
+  "open_examples": [],
+  "hidden_tests_included": false
+}

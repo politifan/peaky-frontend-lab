@@ -1,0 +1,12 @@
+{
+  "category": "ceramics",
+  "ids": [
+    "a",
+    "b"
+  ],
+  "opener": "b",
+  "fallback": [
+    "a",
+    "add"
+  ]
+}

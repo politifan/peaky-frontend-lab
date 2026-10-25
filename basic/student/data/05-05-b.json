@@ -1,0 +1,6 @@
+{
+  "task": "05-05-b",
+  "contract": "Соберите форму id=final с textarea id=body, button id=send type=submit, p id=state role=status. Текст сохраняется на input в pm-final, восстанавливается на загрузке. Submit: пустой trim -> Введите текст без запроса. Иначе POST /api/send с JSON {text:trimmed}; Content-Type application/json. Пока ждём, кнопка disabled. 2xx -> Отправлено, сеть/не 2xx -> Ошибка. Всегда сохранить черновик и разблокировать кнопку. Повторный Enter при pending не отправляет второй запрос. Проверка не доверяет готовому текстовому отчёту.",
+  "open_examples": [],
+  "hidden_tests_included": false
+}

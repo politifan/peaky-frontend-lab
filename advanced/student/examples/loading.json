@@ -1,0 +1,30 @@
+[
+  {
+    "input": {
+      "active": "b",
+      "events": [
+        {
+          "id": "b",
+          "status": "abort",
+          "items": []
+        }
+      ]
+    },
+    "expected": {
+      "loading": false,
+      "error": null,
+      "items": []
+    }
+  },
+  {
+    "input": {
+      "active": "b",
+      "events": []
+    },
+    "expected": {
+      "loading": true,
+      "error": null,
+      "items": []
+    }
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "input": {
+      "ids": [
+        "a",
+        "b",
+        "c"
+      ],
+      "selected": "b",
+      "deleted": []
+    },
+    "expected": {
+      "ids": [
+        "a",
+        "b",
+        "c"
+      ],
+      "selected": "b"
+    }
+  },
+  {
+    "input": {
+      "ids": [],
+      "selected": "b",
+      "deleted": []
+    },
+    "expected": {
+      "ids": [],
+      "selected": null
+    }
+  }
+]

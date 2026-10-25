@@ -1,0 +1,35 @@
+[
+  {
+    "input": {
+      "chunks": [
+        {
+          "name": "a",
+          "bytes": 10,
+          "initial": true
+        },
+        {
+          "name": "b",
+          "bytes": 100,
+          "initial": false
+        }
+      ],
+      "limit": 0
+    },
+    "expected": {
+      "total": 10,
+      "exceeded": true,
+      "largest": "a"
+    }
+  },
+  {
+    "input": {
+      "chunks": [],
+      "limit": 0
+    },
+    "expected": {
+      "total": 0,
+      "exceeded": false,
+      "largest": null
+    }
+  }
+]

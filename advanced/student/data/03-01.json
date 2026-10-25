@@ -1,0 +1,28 @@
+{
+  "lesson_key": "03-01",
+  "seed": 710,
+  "practice": "Создайте маршруты списка, деталей и Not found. Синхронизируйте q/page/sort с URL; back восстанавливает предыдущий фильтр. Соберите production dist и откройте deep link напрямую через FastAPI. Проверьте что /api/unknown возвращает JSON 404, а /tickets/demo открывает UI. Отдельно реализуйте route/history и таблицу политики push/replace.",
+  "inputs": {
+    "route": [
+      {
+        "q": "  дом  ",
+        "page": "",
+        "sort": "bad"
+      },
+      {
+        "q": "  дом  ",
+        "page": "",
+        "sort": "title"
+      }
+    ],
+    "history": [
+      [
+        {
+          "type": "replace",
+          "url": "/search"
+        }
+      ],
+      []
+    ]
+  }
+}

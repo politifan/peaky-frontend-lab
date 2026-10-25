@@ -1,0 +1,27 @@
+[
+  {
+    "input": [
+      {
+        "type": "replace",
+        "url": "/search"
+      }
+    ],
+    "expected": {
+      "urls": [
+        "/search"
+      ],
+      "index": 0,
+      "current": "/search"
+    }
+  },
+  {
+    "input": [],
+    "expected": {
+      "urls": [
+        "/"
+      ],
+      "index": 0,
+      "current": "/"
+    }
+  }
+]

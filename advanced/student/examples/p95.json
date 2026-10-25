@@ -1,0 +1,12 @@
+[
+  {
+    "input": [
+      0
+    ],
+    "expected": 0
+  },
+  {
+    "input": [],
+    "expected": null
+  }
+]
