@@ -1,5 +1,7 @@
-# Peaky Minds Frontend learner labs
+# Frontend, редакция 3
 
-Sources for Stepik 301875/301876, with complete learner archives attached to course-final-20261026. Start with START-HERE.txt in the chosen level. Basic practical HTML contracts are also directly in Stepik; these local practice steps do not pretend to have a submission field or connected External Grader.
+Базовый https://stepik.org/course/301875 — небольшие native HTML/CSS/JavaScript задачи перед собственной браузерной практикой, все 34 локальных задания сохранены.
 
-JavaScript functions in advanced are executed natively on Stepik. Python only hosts the API and drives optional local browser checks. Existing runtime and deliberate incidents are retained. No new complete runtime acceptance or independent learner pilot claimed.
+Продвинутый https://stepik.org/course/301876 — алгоритм → компонент React → наблюдение DOM. `/?practice=state` связывает собственный селектор и reducer с настоящим интерфейсом. Обычная диспетчерская и отдельные fault-профили показывают поиск, сохранность и диалоги. Одна выбранная итоговая система.
+
+Точные команды и критерии — START-HERE и Stepik. DOCX редакции 2 — архив. Локальная проверка не отправляет баллы в Stepik.

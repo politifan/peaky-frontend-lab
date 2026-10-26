@@ -12,7 +12,7 @@
       }
     ],
     "expected": {
-      "ready": false,
+      "ready": true,
       "failed": {
         "board": []
       }

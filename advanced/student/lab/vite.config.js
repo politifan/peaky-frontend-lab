@@ -1,1 +1,5 @@
-export default { server:{host:'127.0.0.1',proxy:{'/api':'http://127.0.0.1:8000'}}, build:{manifest:true} };
+import {defineConfig} from 'vite';
+
+// Keep complete modules for the reproducible teaching build. Minification stays
+// enabled; measure the resulting artifact rather than assuming unused removal.
+export default defineConfig({build:{rollupOptions:{treeshake:false}}});

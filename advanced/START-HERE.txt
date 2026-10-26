@@ -1,17 +1,17 @@
-Peaky Minds Frontend advanced. Дополнение 26.10.2026
+Frontend — редакция 3, 26.10.2026
+Распакуйте целиком в новую учебную папку. Текущие порядок и критерии — Stepik и START-HERE, DOCX редакции 2 справочные. Отчёт TXT/Markdown достаточен. Локальные программы и задачи Stepik проверяют разные результаты; External Grader не подключён.
 
-Распакуйте целиком. Первые HTML/CSS шаги basic выполняются в student/tasks/КЛЮЧ/index.html без установки сервера. Каждый контракт также опубликован в соответствующем шаге Stepik. Там нет поля отправки HTML и подключённого External Grader; локальная практика и вопросы Stepik оценивают разные результаты.
+Рабочая папка student/lab. Node >=22.12, Python 3.12. npm ci → npm run build. Затем venv и pip install -r requirements.txt.
+API: .venv/Scripts/python.exe -m uvicorn server:app --host 127.0.0.1 --port 8000
+После сборки основной адрес http://127.0.0.1:8000. Для dev во втором терминале npm run dev; proxy /api идёт на 8000, origin5173 отличается. В Linux/macOS python3.12 и .venv/bin/python, активация не обязательна.
+Vite закреплён 7.3.7. Учебная сборка сохраняет полные модули (treeshake=false) и включает минификацию; фактический размер измеряйте по артефакту. Это профиль воспроизводимого стенда, не доказательство оптимального production bundle.
 
-Для basic HTTP из student:
-py -3.12 -m venv .venv
-.venv/Scripts/python.exe -m pip install -r requirements.txt
-.venv/Scripts/python.exe run_lab.py --mode ready --port 8000
-URL: http://127.0.0.1:8000/tasks/КЛЮЧ/index.html. Режим меняют только после Ctrl+C и нового запуска: slow/empty/error/invalid. submissions.sqlite3 и localStorage сохраняют учебные данные. Не удаляйте их для скрытия ошибки.
+Переход функции в компонент: откройте /?practice=state. Счётчик useReducer уже работает. src/practice/selector.js и editorReducer.js — ученические заготовки, их пустое поведение ожидаемо до вашей реализации.
+1. Перенесите собственную solve(data) селектора в selector.js, сохранив export. Компонент хранит items и selectedId, а title вычисляет при render. Выберите запись, измените её title, удалите. Ожидания: новая подпись, затем «Не выбрано». Пустая строка отдельно показывает «(пустая подпись)».
+2. После разобранного counter реализуйте editorReducer: edit меняет draft, save копирует draft в saved, cancel возвращает draft к saved, неизвестное событие сохраняет state. Введите первый текст, убедитесь, что saved прежний, сохраните, введите второй и отмените. Поле вернулось к первому. Повторите с пустой строкой и собственными значениями.
+3. В диспетчерской выполните реальный запрос и диалог. JSON-функция не доказывает DOM, focus или сеть. Сначала обычный URL, затем ОДИН профиль /?fault=search/outbox/cache/dialog. Функции faults.js намеренно неверны только в назначенном профиле.
 
-Advanced: рабочая папка student/lab. Нужен Node >=22.12 и Python 3.12. npm ci → npm run build, затем venv и pip install -r requirements.txt. API: .venv/Scripts/python.exe -m uvicorn server:app --host 127.0.0.1 --port 8000. Основной адрес после сборки http://127.0.0.1:8000. Для dev во втором терминале npm run dev; proxy /api идёт на 8000. Origin на 5173 отличается от 8000.
+Для search: a затем быстро ab, дождитесь обоих ответов; актуальным остаётся ab. Для dialog: editor→confirm→Escape оставляет editor и фокус внутри него; второй Escape возвращает исходную кнопку. Для outbox: одно намерение получает один ключ, потерянное подтверждение и новый процесс не дают второй эффект. Сохраняйте SQLite и localStorage. Порты, процессы и учебные данные фиксируйте в отчёте.
 
-В Linux/macOS создайте python3.12 -m venv .venv и используйте .venv/bin/python. Активация необязательна. Для check_examples.py перейдите в student и вызовите lab/.venv/Scripts/python.exe (Linux: lab/.venv/bin/python), сначала -m playwright install chromium, затем check_examples.py TASK_KEY. KEY берут из одинаковых имён tasks/KEY.js и examples/KEY.json. Проверяется JavaScript solve, Python только управляет браузером.
-
-Advanced профили /?fault=search, outbox, cache, dialog намеренно неисправны. Сохраняйте исходные значения и показывайте различающий опыт. Успех JSON-функции не доказывает работу focus, экрана, сети или сохранности после рестарта. Портфельные продукты создаются по своим рубрикам; исходные варианты и файлы сохранены.
-
-Короткие заметки могут быть TXT/Markdown/DOCX; финальная передача требует связной инструкции. Исторические DOCX редакции 2 остаются справочным чтением, актуальные уточнения — Stepik и этот файл. Нет обещанной постоянной преподавательской проверки или независимого серверного экзамена локального проекта.
+Из student можно запускать lab/.venv/Scripts/python.exe check_examples.py TASK_KEY после установки Playwright/Chromium; в Linux lab/.venv/bin/python. KEY соответствует tasks/KEY.js и examples/KEY.json. Это открытые примеры JavaScript solve, Python только управляет браузером; не полный DOM-экзамен.
+Четыре области портфолио — варианты, ОДИН законченный продукт обязателен. portfolio_gate проверяет один допустимый id с непустой рубрикой; четыре продукта не требуются. В передаче: исходники/lock, свои тесты, воспроизведённый отказ, исправление, регрессия, новое условие и запуск из новой копии с прежними данными. Самостоятельный повтор не является независимой аттестацией.

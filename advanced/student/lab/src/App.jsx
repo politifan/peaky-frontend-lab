@@ -1,7 +1,12 @@
 import React,{useState,useEffect,useRef} from 'react';
+import StatePractice from './StatePractice.jsx';
 import {acceptSearch,persistQueue,readCache,closeTop} from './faults.js';
 function read(key,fallback) { try {return JSON.parse(localStorage.getItem(key)) ?? fallback;}catch{return fallback;} }
 export default function App(){
+ if(new URLSearchParams(location.search).get('practice')==='state')return <StatePractice/>;
+ return <Desk/>;
+}
+function Desk(){
  const params=new URLSearchParams(location.search),fault=params.get('fault')||'';
  const [query,setQuery]=useState(params.get('q')||''),[items,setItems]=useState([]),[loading,setLoading]=useState(false),[error,setError]=useState('');
  const [selected,setSelected]=useState(null),[title,setTitle]=useState(''),[queue,setQueue]=useState(()=>read('peaky-outbox-v2',[]));
@@ -26,7 +31,7 @@ export default function App(){
  }
  function loadCache(){const snapshot=read('peaky-cache-v2',{version:1,records:[{id:'stale',title:'Старый формат',version:1}]});setItems(fault==='cache'?readCache(snapshot,2):(snapshot.version===2?snapshot.records:[]));setNotice('Локальный набор прочитан');}
  const current=items.find(x=>x.id===selected)??null;
- return <div className="shell"><aside><p className="brand">PEAKY MINDS</p><h1>Peaky Desk</h1><p>Учебная диспетчерская</p><a href="/">Список заявок</a><p className="muted">Режим неисправности: {fault||'обычный'}</p><p>Исправляйте функции в faults.js по DOCX. Портфолио создаётся в четырёх собственных репозиториях.</p></aside>
+ return <div className="shell"><aside><p className="brand">PEAKY MINDS</p><h1>Peaky Desk</h1><p>Учебная диспетчерская</p><a href="/">Список заявок</a><a href="/?practice=state">Практика состояния</a><p className="muted">Режим неисправности: {fault||'обычный'}</p><p>Разберите обычное поведение, затем один профиль faults.js. Для итогового проекта выберите один продукт.</p></aside>
  <main><header><div><p className="eyebrow">FRONTEND / LAB 02</p><h2>Рабочая очередь</h2></div><span className="badge">React + FastAPI</span></header>
  <section className="panel"><label htmlFor="search">Поиск заявок</label><input id="search" value={query} onChange={e=>{setQuery(e.target.value);const p=new URLSearchParams(location.search);p.set('q',e.target.value);history.replaceState(null,'','?'+p);}}/><p role="status">{loading?'Загрузка':`${items.length} заявок`}</p><button onClick={loadCache}>Прочитать локальный набор</button></section>
  {error&&<p role="alert" className="error">{error}</p>}<p aria-live="polite">{notice}</p>
